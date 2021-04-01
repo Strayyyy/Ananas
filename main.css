@@ -1,0 +1,145 @@
+body
+{
+	color: #ffffff;
+    font-family: 'Poppins', sans-serif !important;
+	font-size: 20px;
+    background-image: url(tlo.png);
+    background-repeat:no-repeat; 
+    background-size: cover;
+    background-position:center; 
+    background-attachment:fixed; 
+    height:100%; 
+    width:100%; 
+	margin: 0 !important;
+}
+
+.nav
+{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 20px;
+    height: 70px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+	height: 40px;
+}
+
+ol > li > a
+{
+    transition: all 0.3s ease-in-out;
+}
+
+ol > li:hover > a
+{
+	color: #2e85ff;
+}
+
+li
+{
+    padding-top: 16px;
+}
+
+.container1
+{
+    width: 100%;
+    padding-top: 110px;;
+}
+
+.title
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+.subtitle
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.guzik1
+{
+    padding: 5px 5px;
+    width: 150px;
+    background-color: #2e85ff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #2e85ff;
+	border-right: 2px solid #2e85ff;
+	border-left: 2px solid #2e85ff;
+	border-top: 2px solid #2e85ff;
+	
+	border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    transition: all 0.4s ease-in-out !important;
+}
+
+.guzik1:hover
+{
+    box-shadow: 0 0 20px #2e85ff !important;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.kreska
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border-top: 1px solid #2e85ff;
+}
+
+.stats
+{
+    text-align: center;
+    width: auto;
+}
+
+.stat1
+{
+    text-align: center;
+}
+
+.footer
+{
+	text-align: center;
+	background-color: #222222;
+	padding: 20px;
+}
